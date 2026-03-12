@@ -11,11 +11,11 @@
 
 | ID | Épico | Prioridade | Status |
 |----|-------|------------|--------|
-| EP-01 | Análise Exploratória de Dados (EDA) | 🔴 Alta | ⬜ Não iniciado |
-| EP-02 | Machine Learning Não Supervisionado | 🔴 Alta | ⬜ Não iniciado |
-| EP-03 | Machine Learning Supervisionado | 🔴 Alta | ⬜ Não iniciado |
-| EP-04 | Computação em Nuvem (AWS) | 🔴 Alta | ⬜ Não iniciado |
-| EP-05 | Entrega Final (Vídeos + Documentação) | 🔴 Alta | ⬜ Não iniciado |
+| EP-01 | Análise Exploratória de Dados (EDA) | 🔴 Alta | ✅ Concluído |
+| EP-02 | Machine Learning Não Supervisionado | 🔴 Alta | ✅ Concluído |
+| EP-03 | Machine Learning Supervisionado | 🔴 Alta | ✅ Concluído |
+| EP-04 | Computação em Nuvem (AWS) | 🔴 Alta | ✅ Concluído |
+| EP-05 | Entrega Final (Vídeos + Documentação) | 🔴 Alta | 🔄 Em progresso |
 | EP-06 | Ir Além — ESP32 + IoT (Opcional) | 🟡 Média | ⬜ Não iniciado |
 
 ---
@@ -39,8 +39,8 @@
 | T-01.1.2 | Criar estrutura de pastas (template FIAP) | — | 15 min | ✅ Feito |
 | T-01.1.3 | Criar README.md com dados do grupo | — | 30 min | ✅ Feito |
 | T-01.1.4 | Criar `.gitignore` e arquivos auxiliares | — | 10 min | ✅ Feito |
-| T-01.1.5 | Criar notebook `.ipynb` com nomenclatura correta | — | 10 min | ⬜ A fazer |
-| T-01.1.6 | Instalar dependências (pandas, numpy, matplotlib, seaborn, scikit-learn) | — | 15 min | ⬜ A fazer |
+| T-01.1.5 | Criar notebook `.ipynb` com nomenclatura correta | — | 10 min | ✅ Feito |
+| T-01.1.6 | Instalar dependências (pandas, numpy, matplotlib, seaborn, scikit-learn) | — | 15 min | ✅ Feito |
 
 ---
 
@@ -51,13 +51,13 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-01.2.1 | Importar bibliotecas e carregar o CSV com `pd.read_csv()` | — | 10 min | ⬜ A fazer |
-| T-01.2.2 | Verificar shape, dtypes e primeiras linhas (`.head()`, `.info()`) | — | 10 min | ⬜ A fazer |
-| T-01.2.3 | Estatísticas descritivas com `.describe()` | — | 10 min | ⬜ A fazer |
-| T-01.2.4 | Verificar valores nulos (`.isnull().sum()`) | — | 10 min | ⬜ A fazer |
-| T-01.2.5 | Verificar duplicatas (`.duplicated().sum()`) | — | 5 min | ⬜ A fazer |
-| T-01.2.6 | Identificar culturas únicas e suas frequências | — | 10 min | ⬜ A fazer |
-| T-01.2.7 | Documentar achados em célula Markdown | — | 15 min | ⬜ A fazer |
+| T-01.2.1 | Importar bibliotecas e carregar o CSV com `pd.read_csv()` | — | 10 min | ✅ Feito |
+| T-01.2.2 | Verificar shape, dtypes e primeiras linhas (`.head()`, `.info()`) | — | 10 min | ✅ Feito |
+| T-01.2.3 | Estatísticas descritivas com `.describe()` | — | 10 min | ✅ Feito |
+| T-01.2.4 | Verificar valores nulos (`.isnull().sum()`) | — | 10 min | ✅ Feito |
+| T-01.2.5 | Verificar duplicatas (`.duplicated().sum()`) | — | 5 min | ✅ Feito |
+| T-01.2.6 | Identificar culturas únicas e suas frequências | — | 10 min | ✅ Feito |
+| T-01.2.7 | Documentar achados em célula Markdown | — | 15 min | ✅ Feito |
 
 ---
 
@@ -68,11 +68,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-01.3.1 | Histogramas de todas as variáveis numéricas | — | 20 min | ⬜ A fazer |
-| T-01.3.2 | Boxplots por variável numérica | — | 20 min | ⬜ A fazer |
-| T-01.3.3 | Countplot das culturas (distribuição categórica) | — | 15 min | ⬜ A fazer |
-| T-01.3.4 | Análise de assimetria e curtose | — | 15 min | ⬜ A fazer |
-| T-01.3.5 | Documentar distribuições observadas em Markdown | — | 20 min | ⬜ A fazer |
+| T-01.3.1 | Histogramas de todas as variáveis numéricas | — | 20 min | ✅ Feito |
+| T-01.3.2 | Boxplots por variável numérica | — | 20 min | ✅ Feito |
+| T-01.3.3 | Countplot das culturas (distribuição categórica) | — | 15 min | ✅ Feito |
+| T-01.3.4 | Análise de assimetria e curtose | — | 15 min | ✅ Feito |
+| T-01.3.5 | Documentar distribuições observadas em Markdown | — | 20 min | ✅ Feito |
 
 ---
 
@@ -83,12 +83,12 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-01.4.1 | Matriz de correlação + heatmap (seaborn) | — | 20 min | ⬜ A fazer |
-| T-01.4.2 | Scatter plots: cada variável vs. Rendimento | — | 30 min | ⬜ A fazer |
-| T-01.4.3 | Boxplots de Rendimento por Cultura | — | 15 min | ⬜ A fazer |
-| T-01.4.4 | Pairplot das variáveis numéricas | — | 15 min | ⬜ A fazer |
-| T-01.4.5 | Análise groupby: estatísticas de rendimento por cultura | — | 20 min | ⬜ A fazer |
-| T-01.4.6 | Documentar correlações e insights em Markdown | — | 30 min | ⬜ A fazer |
+| T-01.4.1 | Matriz de correlação + heatmap (seaborn) | — | 20 min | ✅ Feito |
+| T-01.4.2 | Scatter plots: cada variável vs. Rendimento | — | 30 min | ✅ Feito |
+| T-01.4.3 | Boxplots de Rendimento por Cultura | — | 15 min | ✅ Feito |
+| T-01.4.4 | Pairplot das variáveis numéricas | — | 15 min | ✅ Feito |
+| T-01.4.5 | Análise groupby: estatísticas de rendimento por cultura | — | 20 min | ✅ Feito |
+| T-01.4.6 | Documentar correlações e insights em Markdown | — | 30 min | ✅ Feito |
 
 ---
 
@@ -107,10 +107,10 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-02.1.1 | Selecionar features relevantes para clusterização | — | 15 min | ⬜ A fazer |
-| T-02.1.2 | Aplicar StandardScaler ou MinMaxScaler | — | 15 min | ⬜ A fazer |
-| T-02.1.3 | Tratar variáveis categóricas (encoding se necessário) | — | 15 min | ⬜ A fazer |
-| T-02.1.4 | Documentar decisões de pré-processamento | — | 10 min | ⬜ A fazer |
+| T-02.1.1 | Selecionar features relevantes para clusterização | — | 15 min | ✅ Feito |
+| T-02.1.2 | Aplicar StandardScaler ou MinMaxScaler | — | 15 min | ✅ Feito |
+| T-02.1.3 | Tratar variáveis categóricas (encoding se necessário) | — | 15 min | ✅ Feito |
+| T-02.1.4 | Documentar decisões de pré-processamento | — | 10 min | ✅ Feito |
 
 ---
 
@@ -121,11 +121,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-02.2.1 | Implementar Método do Cotovelo (Elbow) para K de 2 a 10 | — | 20 min | ⬜ A fazer |
-| T-02.2.2 | Calcular Silhouette Score para cada K | — | 15 min | ⬜ A fazer |
-| T-02.2.3 | Treinar K-Means com K ideal | — | 15 min | ⬜ A fazer |
-| T-02.2.4 | Visualizar clusters em 2D (PCA ou features principais) | — | 30 min | ⬜ A fazer |
-| T-02.2.5 | Analisar centróides e características de cada cluster | — | 20 min | ⬜ A fazer |
+| T-02.2.1 | Implementar Método do Cotovelo (Elbow) para K de 2 a 10 | — | 20 min | ✅ Feito |
+| T-02.2.2 | Calcular Silhouette Score para cada K | — | 15 min | ✅ Feito |
+| T-02.2.3 | Treinar K-Means com K ideal | — | 15 min | ✅ Feito |
+| T-02.2.4 | Visualizar clusters em 2D (PCA ou features principais) | — | 30 min | ✅ Feito |
+| T-02.2.5 | Analisar centróides e características de cada cluster | — | 20 min | ✅ Feito |
 
 ---
 
@@ -136,10 +136,10 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-02.3.1 | Implementar DBSCAN e ajustar eps/min_samples | — | 30 min | ⬜ A fazer |
-| T-02.3.2 | Implementar Agglomerative Clustering + dendrograma | — | 30 min | ⬜ A fazer |
-| T-02.3.3 | Comparar resultados entre K-Means, DBSCAN e Hierarchical | — | 20 min | ⬜ A fazer |
-| T-02.3.4 | Documentar qual algoritmo melhor segmentou os dados | — | 20 min | ⬜ A fazer |
+| T-02.3.1 | Implementar DBSCAN e ajustar eps/min_samples | — | 30 min | ✅ Feito |
+| T-02.3.2 | Implementar Agglomerative Clustering + dendrograma | — | 30 min | ✅ Feito |
+| T-02.3.3 | Comparar resultados entre K-Means, DBSCAN e Hierarchical | — | 20 min | ✅ Feito |
+| T-02.3.4 | Documentar qual algoritmo melhor segmentou os dados | — | 20 min | ✅ Feito |
 
 ---
 
@@ -150,11 +150,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-02.4.1 | Detecção de outliers por IQR (Interquartile Range) | — | 20 min | ⬜ A fazer |
-| T-02.4.2 | Detecção de outliers por Z-Score | — | 15 min | ⬜ A fazer |
-| T-02.4.3 | Isolation Forest para detecção multivariada | — | 20 min | ⬜ A fazer |
-| T-02.4.4 | Visualizações dos outliers identificados | — | 20 min | ⬜ A fazer |
-| T-02.4.5 | Documentar outliers: quantos, quais culturas, impacto | — | 20 min | ⬜ A fazer |
+| T-02.4.1 | Detecção de outliers por IQR (Interquartile Range) | — | 20 min | ✅ Feito |
+| T-02.4.2 | Detecção de outliers por Z-Score | — | 15 min | ✅ Feito |
+| T-02.4.3 | Isolation Forest para detecção multivariada | — | 20 min | ✅ Feito |
+| T-02.4.4 | Visualizações dos outliers identificados | — | 20 min | ✅ Feito |
+| T-02.4.5 | Documentar outliers: quantos, quais culturas, impacto | — | 20 min | ✅ Feito |
 
 ---
 
@@ -165,10 +165,10 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-02.5.1 | Mapear clusters vs. culturas (crosstab / heatmap) | — | 20 min | ⬜ A fazer |
-| T-02.5.2 | Analisar média de rendimento por cluster | — | 15 min | ⬜ A fazer |
-| T-02.5.3 | Identificar perfis de alto/baixo rendimento | — | 20 min | ⬜ A fazer |
-| T-02.5.4 | Escrever conclusões e tendências em Markdown | — | 30 min | ⬜ A fazer |
+| T-02.5.1 | Mapear clusters vs. culturas (crosstab / heatmap) | — | 20 min | ✅ Feito |
+| T-02.5.2 | Analisar média de rendimento por cluster | — | 15 min | ✅ Feito |
+| T-02.5.3 | Identificar perfis de alto/baixo rendimento | — | 20 min | ✅ Feito |
+| T-02.5.4 | Escrever conclusões e tendências em Markdown | — | 30 min | ✅ Feito |
 
 ---
 
@@ -187,11 +187,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.1.1 | Encoding da variável categórica "Cultura" (LabelEncoder ou OneHot) | — | 15 min | ⬜ A fazer |
-| T-03.1.2 | Definir X (features) e y (Rendimento) | — | 10 min | ⬜ A fazer |
-| T-03.1.3 | Split treino/teste (80/20, random_state fixo) | — | 10 min | ⬜ A fazer |
-| T-03.1.4 | Normalizar/padronizar features se necessário | — | 15 min | ⬜ A fazer |
-| T-03.1.5 | Documentar pipeline de pré-processamento | — | 10 min | ⬜ A fazer |
+| T-03.1.1 | Encoding da variável categórica "Cultura" (LabelEncoder ou OneHot) | — | 15 min | ✅ Feito |
+| T-03.1.2 | Definir X (features) e y (Rendimento) | — | 10 min | ✅ Feito |
+| T-03.1.3 | Split treino/teste (80/20, random_state fixo) | — | 10 min | ✅ Feito |
+| T-03.1.4 | Normalizar/padronizar features se necessário | — | 15 min | ✅ Feito |
+| T-03.1.5 | Documentar pipeline de pré-processamento | — | 10 min | ✅ Feito |
 
 ---
 
@@ -202,11 +202,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.2.1 | Instanciar e treinar LinearRegression | — | 10 min | ⬜ A fazer |
-| T-03.2.2 | Predizer no conjunto de teste | — | 5 min | ⬜ A fazer |
-| T-03.2.3 | Calcular MAE, MSE, RMSE, R² | — | 10 min | ⬜ A fazer |
-| T-03.2.4 | Gráfico real vs. predito | — | 10 min | ⬜ A fazer |
-| T-03.2.5 | Documentar resultados | — | 10 min | ⬜ A fazer |
+| T-03.2.1 | Instanciar e treinar LinearRegression | — | 10 min | ✅ Feito |
+| T-03.2.2 | Predizer no conjunto de teste | — | 5 min | ✅ Feito |
+| T-03.2.3 | Calcular MAE, MSE, RMSE, R² | — | 10 min | ✅ Feito |
+| T-03.2.4 | Gráfico real vs. predito | — | 10 min | ✅ Feito |
+| T-03.2.5 | Documentar resultados | — | 10 min | ✅ Feito |
 
 ---
 
@@ -217,11 +217,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.3.1 | Instanciar e treinar DecisionTreeRegressor | — | 10 min | ⬜ A fazer |
-| T-03.3.2 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ⬜ A fazer |
-| T-03.3.3 | Analisar feature importance | — | 10 min | ⬜ A fazer |
-| T-03.3.4 | Gráfico real vs. predito | — | 10 min | ⬜ A fazer |
-| T-03.3.5 | Documentar resultados | — | 10 min | ⬜ A fazer |
+| T-03.3.1 | Instanciar e treinar DecisionTreeRegressor | — | 10 min | ✅ Feito |
+| T-03.3.2 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ✅ Feito |
+| T-03.3.3 | Analisar feature importance | — | 10 min | ✅ Feito |
+| T-03.3.4 | Gráfico real vs. predito | — | 10 min | ✅ Feito |
+| T-03.3.5 | Documentar resultados | — | 10 min | ✅ Feito |
 
 ---
 
@@ -232,12 +232,12 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.4.1 | Instanciar e treinar RandomForestRegressor | — | 10 min | ⬜ A fazer |
-| T-03.4.2 | Tunar hiperparâmetros (n_estimators, max_depth, etc.) | — | 30 min | ⬜ A fazer |
-| T-03.4.3 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ⬜ A fazer |
-| T-03.4.4 | Analisar feature importance | — | 10 min | ⬜ A fazer |
-| T-03.4.5 | Gráfico real vs. predito | — | 10 min | ⬜ A fazer |
-| T-03.4.6 | Documentar resultados | — | 10 min | ⬜ A fazer |
+| T-03.4.1 | Instanciar e treinar RandomForestRegressor | — | 10 min | ✅ Feito |
+| T-03.4.2 | Tunar hiperparâmetros (n_estimators, max_depth, etc.) | — | 30 min | ✅ Feito |
+| T-03.4.3 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ✅ Feito |
+| T-03.4.4 | Analisar feature importance | — | 10 min | ✅ Feito |
+| T-03.4.5 | Gráfico real vs. predito | — | 10 min | ✅ Feito |
+| T-03.4.6 | Documentar resultados | — | 10 min | ✅ Feito |
 
 ---
 
@@ -248,11 +248,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.5.1 | Instanciar e treinar GradientBoostingRegressor (ou XGBRegressor) | — | 10 min | ⬜ A fazer |
-| T-03.5.2 | Tunar hiperparâmetros (learning_rate, n_estimators, max_depth) | — | 30 min | ⬜ A fazer |
-| T-03.5.3 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ⬜ A fazer |
-| T-03.5.4 | Gráfico real vs. predito | — | 10 min | ⬜ A fazer |
-| T-03.5.5 | Documentar resultados | — | 10 min | ⬜ A fazer |
+| T-03.5.1 | Instanciar e treinar GradientBoostingRegressor (ou XGBRegressor) | — | 10 min | ✅ Feito |
+| T-03.5.2 | Tunar hiperparâmetros (learning_rate, n_estimators, max_depth) | — | 30 min | ✅ Feito |
+| T-03.5.3 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ✅ Feito |
+| T-03.5.4 | Gráfico real vs. predito | — | 10 min | ✅ Feito |
+| T-03.5.5 | Documentar resultados | — | 10 min | ✅ Feito |
 
 ---
 
@@ -263,11 +263,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.6.1 | Instanciar e treinar KNeighborsRegressor (ou SVR/Ridge/Lasso) | — | 10 min | ⬜ A fazer |
-| T-03.6.2 | Tunar hiperparâmetros (n_neighbors / C / alpha) | — | 20 min | ⬜ A fazer |
-| T-03.6.3 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ⬜ A fazer |
-| T-03.6.4 | Gráfico real vs. predito | — | 10 min | ⬜ A fazer |
-| T-03.6.5 | Documentar resultados | — | 10 min | ⬜ A fazer |
+| T-03.6.1 | Instanciar e treinar KNeighborsRegressor (ou SVR/Ridge/Lasso) | — | 10 min | ✅ Feito |
+| T-03.6.2 | Tunar hiperparâmetros (n_neighbors / C / alpha) | — | 20 min | ✅ Feito |
+| T-03.6.3 | Predizer e calcular métricas (MAE, MSE, RMSE, R²) | — | 10 min | ✅ Feito |
+| T-03.6.4 | Gráfico real vs. predito | — | 10 min | ✅ Feito |
+| T-03.6.5 | Documentar resultados | — | 10 min | ✅ Feito |
 
 ---
 
@@ -278,12 +278,12 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-03.7.1 | Montar tabela comparativa (DataFrame com métricas dos 5 modelos) | — | 20 min | ⬜ A fazer |
-| T-03.7.2 | Gráfico de barras comparando R² dos 5 modelos | — | 15 min | ⬜ A fazer |
-| T-03.7.3 | Gráfico de barras comparando RMSE dos 5 modelos | — | 15 min | ⬜ A fazer |
-| T-03.7.4 | Análise de resíduos do melhor modelo | — | 20 min | ⬜ A fazer |
-| T-03.7.5 | Cross-validation (cv=5) no melhor modelo | — | 20 min | ⬜ A fazer |
-| T-03.7.6 | Escrever conclusão final: melhor modelo, pontos fortes, limitações | — | 30 min | ⬜ A fazer |
+| T-03.7.1 | Montar tabela comparativa (DataFrame com métricas dos 5 modelos) | — | 20 min | ✅ Feito |
+| T-03.7.2 | Gráfico de barras comparando R² dos 5 modelos | — | 15 min | ✅ Feito |
+| T-03.7.3 | Gráfico de barras comparando RMSE dos 5 modelos | — | 15 min | ✅ Feito |
+| T-03.7.4 | Análise de resíduos do melhor modelo | — | 20 min | ✅ Feito |
+| T-03.7.5 | Cross-validation (cv=5) no melhor modelo | — | 20 min | ✅ Feito |
+| T-03.7.6 | Escrever conclusão final: melhor modelo, pontos fortes, limitações | — | 30 min | ✅ Feito |
 
 ---
 
@@ -302,12 +302,12 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-04.1.1 | Acessar https://calculator.aws/ e selecionar EC2 | — | 10 min | ⬜ A fazer |
-| T-04.1.2 | Configurar: Linux, 2 vCPUs, 1 GiB RAM, sa-east-1 | — | 15 min | ⬜ A fazer |
-| T-04.1.3 | Adicionar 50 GB de armazenamento HDD (EBS) | — | 10 min | ⬜ A fazer |
-| T-04.1.4 | Selecionar On-Demand 100% | — | 5 min | ⬜ A fazer |
+| T-04.1.1 | Acessar https://calculator.aws/ e selecionar EC2 | — | 10 min | ✅ Feito |
+| T-04.1.2 | Configurar: Linux, 2 vCPUs, 1 GiB RAM, sa-east-1 | — | 15 min | ✅ Feito |
+| T-04.1.3 | Adicionar 50 GB de armazenamento HDD (EBS) | — | 10 min | ✅ Feito |
+| T-04.1.4 | Selecionar On-Demand 100% | — | 5 min | ✅ Feito |
 | T-04.1.5 | Capturar screenshot da cotação completa | — | 5 min | ⬜ A fazer |
-| T-04.1.6 | Anotar custo mensal e anual | — | 5 min | ⬜ A fazer |
+| T-04.1.6 | Anotar custo mensal e anual | — | 5 min | ✅ Feito |
 
 ---
 
@@ -318,11 +318,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-04.2.1 | Configurar: Linux, 2 vCPUs, 1 GiB RAM, us-east-1 | — | 15 min | ⬜ A fazer |
-| T-04.2.2 | Adicionar 50 GB de armazenamento HDD (EBS) | — | 10 min | ⬜ A fazer |
-| T-04.2.3 | Selecionar On-Demand 100% | — | 5 min | ⬜ A fazer |
+| T-04.2.1 | Configurar: Linux, 2 vCPUs, 1 GiB RAM, us-east-1 | — | 15 min | ✅ Feito |
+| T-04.2.2 | Adicionar 50 GB de armazenamento HDD (EBS) | — | 10 min | ✅ Feito |
+| T-04.2.3 | Selecionar On-Demand 100% | — | 5 min | ✅ Feito |
 | T-04.2.4 | Capturar screenshot da cotação completa | — | 5 min | ⬜ A fazer |
-| T-04.2.5 | Anotar custo mensal e anual | — | 5 min | ⬜ A fazer |
+| T-04.2.5 | Anotar custo mensal e anual | — | 5 min | ✅ Feito |
 
 ---
 
@@ -333,12 +333,12 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-04.3.1 | Montar tabela comparativa SP vs Virgínia (custo mensal/anual) | — | 20 min | ⬜ A fazer |
-| T-04.3.2 | Criar gráfico comparativo de custos | — | 20 min | ⬜ A fazer |
-| T-04.3.3 | Pesquisar e documentar implicações da LGPD | — | 30 min | ⬜ A fazer |
-| T-04.3.4 | Analisar latência SP vs Virgínia para acesso aos sensores | — | 20 min | ⬜ A fazer |
-| T-04.3.5 | Escrever justificativa final (custo vs compliance vs latência) | — | 30 min | ⬜ A fazer |
-| T-04.3.6 | Inserir tudo no README.md (imagens + texto) | — | 30 min | ⬜ A fazer |
+| T-04.3.1 | Montar tabela comparativa SP vs Virgínia (custo mensal/anual) | — | 20 min | ✅ Feito |
+| T-04.3.2 | Criar gráfico comparativo de custos | — | 20 min | ✅ Feito |
+| T-04.3.3 | Pesquisar e documentar implicações da LGPD | — | 30 min | ✅ Feito |
+| T-04.3.4 | Analisar latência SP vs Virgínia para acesso aos sensores | — | 20 min | ✅ Feito |
+| T-04.3.5 | Escrever justificativa final (custo vs compliance vs latência) | — | 30 min | ✅ Feito |
+| T-04.3.6 | Inserir tudo no README.md (imagens + texto) | — | 30 min | ✅ Feito |
 
 ---
 

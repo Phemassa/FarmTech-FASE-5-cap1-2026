@@ -10,8 +10,8 @@
 
 | # | Entrega | Tipo | Peso | Status |
 |---|---------|------|------|--------|
-| 1 | Machine Learning — Previsão de Rendimento de Safra | Obrigatória | 10 pts | ⬜ Não iniciado |
-| 2 | Computação em Nuvem — Estimativa de Custos AWS | Obrigatória | 10 pts | ⬜ Não iniciado |
+| 1 | Machine Learning — Previsão de Rendimento de Safra | Obrigatória | 10 pts | ✅ Concluído |
+| 2 | Computação em Nuvem — Estimativa de Custos AWS | Obrigatória | 10 pts | ✅ Concluído |
 | 3 | ESP32 + Wi-Fi + Sensores (Opção 1) | Ir Além | Troféu | ⬜ Não iniciado |
 | 4 | ML + ESP32 — Classificação de Saúde (Opção 2) | Ir Além | Troféu | ⬜ Não iniciado |
 
