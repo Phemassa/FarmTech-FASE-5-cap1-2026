@@ -82,7 +82,8 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 📦 farmtech-solutions-fase5/
 ├── 📂 .github/                              ← Configurações do GitHub
 ├── 📂 assets/                               ← Imagens e recursos visuais
-│   └── logo-fiap.png
+│   ├── logo-fiap.png
+│   └── comparativo_custos.png               ← Gráfico comparativo AWS
 ├── 📂 config/                               ← Configurações do projeto
 ├── 📂 document/                             ← Documentação do projeto
 │   ├── ai_project_document_fiap.md          ← Documento principal do projeto de IA
@@ -233,12 +234,12 @@ Apesar do custo 45,8% superior, a região São Paulo é a escolha **tecnicamente
 
 ## 🗃 Histórico de lançamentos
 
-* 0.3.0 - XX/XX/2026
-    * Entrega final: vídeos e revisão do README
-* 0.2.0 - XX/XX/2026
-    * Entrega 2: estimativa de custos AWS
-* 0.1.0 - XX/XX/2026
-    * Entrega 1: notebook Jupyter com ML completo
+* 0.3.0 - A definir
+    * Entrega final: gravação dos vídeos, links YouTube e submissão no portal FIAP
+* 0.2.0 - 12/03/2026
+    * Entrega 2: estimativa de custos AWS (sa-east-1 vs us-east-1), gráfico comparativo e justificativa técnica (LGPD + latência)
+* 0.1.0 - 12/03/2026
+    * Entrega 1: notebook Jupyter com EDA completa, clusterização (K-Means, DBSCAN, Hierarchical), 5 modelos de regressão e comparação de métricas
 
 ---
 

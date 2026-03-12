@@ -357,11 +357,11 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-05.1.1 | Restart Kernel & Run All — verificar se roda sem erros | — | 15 min | ⬜ A fazer |
-| T-05.1.2 | Revisar ortografia e formatação das células Markdown | — | 20 min | ⬜ A fazer |
-| T-05.1.3 | Garantir que gráficos estão renderizando corretamente | — | 10 min | ⬜ A fazer |
-| T-05.1.4 | Verificar que comentários inline estão no código | — | 15 min | ⬜ A fazer |
-| T-05.1.5 | Conferir nomenclatura do arquivo `.ipynb` | — | 5 min | ⬜ A fazer |
+| T-05.1.1 | Restart Kernel & Run All — verificar se roda sem erros | — | 15 min | ✅ Feito |
+| T-05.1.2 | Revisar ortografia e formatação das células Markdown | — | 20 min | ✅ Feito |
+| T-05.1.3 | Garantir que gráficos estão renderizando corretamente | — | 10 min | ✅ Feito |
+| T-05.1.4 | Verificar que comentários inline estão no código | — | 15 min | ✅ Feito |
+| T-05.1.5 | Conferir nomenclatura do arquivo `.ipynb` | — | 5 min | ✅ Feito |
 
 ---
 
@@ -402,9 +402,9 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-05.4.1 | Revisão final do README completo (todos os links funcionando) | — | 15 min | ⬜ A fazer |
-| T-05.4.2 | Verificar que repo está público | — | 5 min | ⬜ A fazer |
-| T-05.4.3 | Commit final + push | — | 10 min | ⬜ A fazer |
+| T-05.4.1 | Revisão final do README completo (todos os links funcionando) | — | 15 min | ✅ Feito |
+| T-05.4.2 | Verificar que repo está público | — | 5 min | ⬜ A fazer (verificar no GitHub) |
+| T-05.4.3 | Commit final + push | — | 10 min | 🔄 Em progresso |
 | T-05.4.4 | Postar link do repositório no portal FIAP | — | 10 min | ⬜ A fazer |
 | T-05.4.5 | ⚠️ NÃO FAZER mais commits após entrega | — | — | ⬜ A fazer |
 
