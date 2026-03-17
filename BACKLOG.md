@@ -414,7 +414,9 @@
 
 > **Objetivo:** Implementar sistema de coleta de dados com ESP32 real + sensores + comunicação Wi-Fi.  
 > **Sprint:** 6 (pós-entrega obrigatória)  
-> **Responsáveis:** A definir
+> **Responsáveis:** A definir  
+> **Opção Escolhida:** ✅ **Opção 1 — Sistema de Coleta com ESP32 + Wi-Fi**  
+> (Não Opção 2 — Classificação de Saúde com ML + ESP32)
 
 ### 📖 Histórias de Usuário
 
@@ -445,11 +447,16 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-06.2.1 | Integrar sensores ao ESP32 (circuito físico ou Wokwi) | — | 1h | ⬜ A fazer |
-| T-06.2.2 | Programar leitura dos sensores (C/C++ ou MicroPython) | — | 1.5h | ⬜ A fazer |
-| T-06.2.3 | Configurar comunicação Wi-Fi no ESP32 | — | 1h | ⬜ A fazer |
-| T-06.2.4 | Programar envio dos dados ao serviço escolhido | — | 1.5h | ⬜ A fazer |
-| T-06.2.5 | Testar integração completa (sensor → Wi-Fi → destino) | — | 1h | ⬜ A fazer |
+| T-06.2.1 | Integrar sensores ao ESP32 (circuito físico ou Wokwi) | — | 1h | 🔄 Em progresso |
+| T-06.2.2 | Programar leitura dos sensores (C/C++ ou MicroPython) | — | 1.5h | ✅ Feito |
+| T-06.2.3 | Configurar comunicação Wi-Fi no ESP32 | — | 1h | 🔄 Em progresso |
+| T-06.2.4 | Programar envio dos dados ao serviço escolhido | — | 1.5h | ✅ Feito |
+| T-06.2.5 | Testar integração completa (sensor → Wi-Fi → destino) | — | 1h | 🔄 Em progresso |
+
+**Atualização US-06.2 (17/03/2026):**
+- Implementado firmware base em `src/esp32/main.cpp` (leitura DHT22 + solo e envio HTTP em JSON).
+- Implementado simulador em `src/esp32/simulator.py` para testes sem hardware físico.
+- Teste local executado com sucesso para geração/envio; integração fim a fim depende de API ativa no endpoint.
 
 ---
 
@@ -460,7 +467,7 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-06.3.1 | Criar seção "Ir Além" no README do GitHub | — | 20 min | ⬜ A fazer |
+| T-06.3.1 | Criar seção "Ir Além" no README do GitHub | — | 20 min | ✅ Feito |
 | T-06.3.2 | Upload do código-fonte comentado no repo | — | 15 min | ⬜ A fazer |
 | T-06.3.3 | Inserir figura da arquitetura do circuito | — | 10 min | ⬜ A fazer |
 | T-06.3.4 | Gravar vídeo demonstrativo (≤ 5 min, YouTube não listado) | — | 1h | ⬜ A fazer |
@@ -477,7 +484,7 @@
 | EP-03 — Regressão | 7 | 34 | ~8h |
 | EP-04 — AWS Cloud | 3 | 17 | ~4h |
 | EP-05 — Entrega Final | 4 | 20 | ~5h |
-| EP-06 — Ir Além (Opc.) | 3 | 14 | ~10h |
+| EP-06 — Ir Além (Opção 1) | 3 | 14 | ~10h |
 | **TOTAL** | **26** | **130** | **~38h** |
 
 ---
