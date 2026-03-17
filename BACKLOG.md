@@ -387,11 +387,14 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-05.3.1 | Montar roteiro do vídeo (calculadora → SP vs Virgínia → justificativa) | — | 20 min | ⬜ A fazer |
-| T-05.3.2 | Gravar tela + narração (≤ 5 min) | — | 45 min | ⬜ A fazer |
-| T-05.3.3 | Editar vídeo se necessário | — | 20 min | ⬜ A fazer |
-| T-05.3.4 | Upload no YouTube como "não listado" | — | 10 min | ⬜ A fazer |
-| T-05.3.5 | Adicionar link do vídeo no README.md | — | 5 min | ⬜ A fazer |
+| T-05.3.1 | Montar roteiro do vídeo (calculadora → SP vs Virgínia → justificativa) | — | 20 min | ✅ Feito |
+| T-05.3.2 | Gravar tela + narração (≤ 5 min) | — | 45 min | ✅ Feito |
+| T-05.3.3 | Editar vídeo se necessário | — | 20 min | ✅ Feito |
+| T-05.3.4 | Upload no YouTube como "não listado" | — | 10 min | ✅ Feito |
+| T-05.3.5 | Adicionar link do vídeo no README.md | — | 5 min | ✅ Feito |
+
+**Atualização US-05.3 (17/03/2026):**
+- Link do vídeo AWS Cloud: https://youtu.be/xAOtlSShT0I
 
 ---
 

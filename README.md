@@ -56,7 +56,7 @@ Comparação entre as regiões **São Paulo (sa-east-1)** e **Virgínia do Norte
 | Entrega | Vídeo | Duração |
 |---------|-------|---------|
 | Entrega 1 — Machine Learning | [🎬 Assistir no YouTube](https://youtube.com/LINK_DO_VIDEO_1) | ≤ 5 min |
-| Entrega 2 — AWS Cloud | [🎬 Assistir no YouTube](https://youtube.com/LINK_DO_VIDEO_2) | ≤ 5 min |
+| Entrega 2 — AWS Cloud | [🎬 Assistir no YouTube](https://youtu.be/xAOtlSShT0I) | ≤ 5 min |
 
 ---
 
@@ -155,14 +155,12 @@ jupyter notebook src/PhellypeMatheusGiacoiaFlaibamMassarente_rm566826_pbl_fase4.
 |---------|:--------------------:|:-----------------------------:|
 | **Instância EC2** | `t3.micro` | `t3.micro` |
 | vCPUs / RAM | 2 vCPUs / 1 GiB | 2 vCPUs / 1 GiB |
-| **Custo EC2/hora** | US$ 0,0188 | US$ 0,0104 |
-| **Custo EC2/mês** (730h) | US$ 13,72 | US$ 7,59 |
-| **Armazenamento EBS** 50 GB (HDD gp2) | US$ 9,50 | US$ 5,00 |
-| **Total mensal** | **US$ 23,22** | **US$ 12,59** |
-| **Total anual** | **US$ 278,69** | **US$ 151,10** |
-| **Economia anual** (vs SP) | — | 🟢 US$ 127,59 (45,8% menor) |
+| **Custo inicial** | US$ 0,00 | US$ 0,00 |
+| **Total mensal** (AWS Calculator) | **US$ 43,07** | **US$ 30,88** |
+| **Total anual** (12 months) | **US$ 516,84** | **US$ 370,56** |
+| **Economia anual** (vs SP) | — | 🟢 US$ 146,28 (28,3% menor) |
 
-> **Fonte:** AWS Pricing — EC2 On-Demand Linux, instância `t3.micro` (2 vCPU, 1 GiB RAM), armazenamento EBS gp2 50 GB, 100% utilização mensal (730 horas).
+> **Fonte:** Capturas da AWS Pricing Calculator em `assets/AWS São Paulo (BR).png` e `assets/AWS Virgínia do Norte (EUA).png` (estimativa com Amazon EC2 na calculadora).
 
 <p align="center">
   <img src="assets/tabela_comparativa_aws.png" alt="Tabela Comparativa de Custos AWS" width="90%">
@@ -178,7 +176,7 @@ jupyter notebook src/PhellypeMatheusGiacoiaFlaibamMassarente_rm566826_pbl_fase4.
 
 #### 💰 Qual a solução mais barata?
 
-A região **Virgínia do Norte (us-east-1)** é **45,8% mais barata**: US$ 12,59/mês vs US$ 23,22/mês de São Paulo — uma economia de **US$ 127,59/ano**. Isso ocorre porque:
+A região **Virgínia do Norte (us-east-1)** é **28,3% mais barata**: US$ 30,88/mês vs US$ 43,07/mês de São Paulo — uma economia de **US$ 146,28/ano**. Isso ocorre porque:
 - A AWS opera data centers na Virgínia desde 2006 com infraestrutura altamente consolidada e custos operacionais menores.
 - A região us-east-1 tem o maior volume de clientes AWS do mundo, diluindo os custos fixos de operação.
 - O Brasil enfrenta custos mais altos de energia, impostos sobre importação de equipamentos e infraestrutura de conectividade.
@@ -187,7 +185,7 @@ A região **Virgínia do Norte (us-east-1)** é **45,8% mais barata**: US$ 12,59
 
 | Critério | São Paulo (sa-east-1) | Virgínia do Norte (us-east-1) |
 |----------|:---------------------:|:-----------------------------:|
-| Custo mensal | US$ 23,22 | US$ 12,59 ✅ |
+| Custo mensal | US$ 43,07 | US$ 30,88 ✅ |
 | Latência para sensores no Brasil | ~5 ms ✅ | ~130 ms ❌ |
 | Conformidade LGPD | ✅ Nativa | ⚠️ Requer análise |
 | Soberania dos dados | ✅ Dados no Brasil | ❌ Dados no exterior |
@@ -201,12 +199,12 @@ A região **Virgínia do Norte (us-east-1)** é **45,8% mais barata**: US$ 12,59
 
 #### ✅ Decisão Final: **São Paulo (sa-east-1)**
 
-Apesar do custo 45,8% superior, a região São Paulo é a escolha **tecnicamente e legalmente recomendada** para este projeto, pelos seguintes motivos:
+Apesar do custo 39,5% superior, a região São Paulo é a escolha **tecnicamente e legalmente recomendada** para este projeto, pelos seguintes motivos:
 
 - **Conformidade LGPD nativa** — sem necessidade de mecanismos jurídicos adicionais para transferência internacional de dados.
 - **Latência mínima** (~5 ms) — essencial para o processamento em tempo real dos dados dos sensores IoT no campo.
 - **Soberania dos dados agrícolas** — informações estratégicas da fazenda permanecem sob jurisdição brasileira.
-- **Custo adicional justificado** — a diferença de US$ 127,59/ano (~R$ 640/ano) é insignificante frente ao custo de adequação regulatória e ao risco operacional de alta latência.
+- **Custo adicional justificado** — a diferença de US$ 146,28/ano é aceitável frente ao custo de adequação regulatória e ao risco operacional de alta latência.
 
 > **Regra prática:** use us-east-1 para workloads puramente globais sem dados sensíveis; use sa-east-1 quando latência para usuários brasileiros e conformidade LGPD forem requisitos.
 

@@ -9,13 +9,11 @@ Gera PNG mostrando:
 """
 
 import matplotlib.pyplot as plt
-import numpy as np
-from pathlib import Path
 
-# Dados de custos (em USD)
+# Dados de custos (em USD) extraídos dos prints da AWS Pricing Calculator
 regions = ['São Paulo\n(sa-east-1)', 'Virgínia do Norte\n(us-east-1)']
-custos_mensais = [23.22, 12.59]
-custos_anuais = [278.69, 151.10]
+custos_mensais = [43.07, 30.88]
+custos_anuais = [516.84, 370.56]
 
 # Configuração da figura
 fig, axes = plt.subplots(1, 2, figsize=(14, 6))
@@ -64,7 +62,8 @@ ax2.set_axisbelow(True)
 
 # Economia anual
 economia = custos_anuais[0] - custos_anuais[1]
-ax2.text(0.5, -0.25, f'Economia (Virgínia): US$ {economia:.2f}/ano (45,8% menor)',
+economia_pct = ((custos_anuais[0] - custos_anuais[1]) / custos_anuais[0]) * 100
+ax2.text(0.5, -0.25, f'Economia (Virgínia): US$ {economia:.2f}/ano ({economia_pct:.1f}% menor)',
          transform=ax2.transAxes, ha='center', fontsize=11,
          bbox=dict(boxstyle='round', facecolor='lightgreen', alpha=0.5))
 
@@ -84,12 +83,12 @@ ax.axis('off')
 # Dados da tabela
 table_data = [
     ['Critério', 'São Paulo (sa-east-1)', 'Virgínia do Norte (us-east-1)'],
-    ['Custo mensal', 'US$ 23.22', 'US$ 12.59 ✅'],
-    ['Custo anual', 'US$ 278.69', 'US$ 151.10 ✅'],
-    ['Economia anual', '—', 'US$ 127.59 (45.8% menor) ✅'],
-    ['Latência para Brasil', '~5 ms ✅', '~130 ms ❌'],
-    ['Conformidade LGPD', '✅ Nativa', '⚠️ Requer análise'],
-    ['Soberania dos dados', '✅ Brasil', '❌ Exterior'],
+    ['Custo mensal', 'US$ 43.07', 'US$ 30.88 (menor)'],
+    ['Custo anual', 'US$ 516.84', 'US$ 370.56 (menor)'],
+    ['Economia anual', '—', 'US$ 146.28 (28.3% menor)'],
+    ['Latência para Brasil', '~5 ms (melhor)', '~130 ms (pior)'],
+    ['Conformidade LGPD', 'Nativa', 'Requer análise adicional'],
+    ['Soberania dos dados', 'Dados no Brasil', 'Dados no exterior'],
 ]
 
 # Cores para linhas alternadas
