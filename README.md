@@ -55,7 +55,7 @@ Comparação entre as regiões **São Paulo (sa-east-1)** e **Virgínia do Norte
 
 | Entrega | Vídeo | Duração |
 |---------|-------|---------|
-| Entrega 1 — Machine Learning | [🎬 Assistir no YouTube](https://youtube.com/LINK_DO_VIDEO_1) | ≤ 5 min |
+| Entrega 1 — Machine Learning | [🎬 Assistir no YouTube](https://youtu.be/Slx6_YHVWig) | ≤ 5 min |
 | Entrega 2 — AWS Cloud | [🎬 Assistir no YouTube](https://youtu.be/xAOtlSShT0I) | ≤ 5 min |
 
 ---

@@ -372,11 +372,14 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-05.2.1 | Montar roteiro do vídeo (EDA → Clusters → 5 modelos → conclusão) | — | 20 min | ⬜ A fazer |
-| T-05.2.2 | Gravar tela + narração (≤ 5 min) | — | 45 min | ⬜ A fazer |
-| T-05.2.3 | Editar vídeo se necessário | — | 20 min | ⬜ A fazer |
-| T-05.2.4 | Upload no YouTube como "não listado" | — | 10 min | ⬜ A fazer |
-| T-05.2.5 | Adicionar link do vídeo no README.md | — | 5 min | ⬜ A fazer |
+| T-05.2.1 | Montar roteiro do vídeo (EDA → Clusters → 5 modelos → conclusão) | — | 20 min | ✅ Feito |
+| T-05.2.2 | Gravar tela + narração (≤ 5 min) | — | 45 min | ✅ Feito |
+| T-05.2.3 | Editar vídeo se necessário | — | 20 min | ✅ Feito |
+| T-05.2.4 | Upload no YouTube como "não listado" | — | 10 min | ✅ Feito |
+| T-05.2.5 | Adicionar link do vídeo no README.md | — | 5 min | ✅ Feito |
+
+**Atualização US-05.2 (17/03/2026):**
+- Link do vídeo Entrega 1 (Machine Learning): https://youtu.be/Slx6_YHVWig
 
 ---
 
