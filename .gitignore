@@ -24,5 +24,8 @@ dist/
 build/
 *.egg-info/
 
+# PlatformIO
+src/esp32/.pio/
+
 # Data files (descomente se não quiser versionar os dados)
 # data/*.csv

@@ -25,6 +25,47 @@ Implementação inicial da **Opção 1** do "Ir Além": coleta de sensores com E
 ## Arquivos
 - `main.cpp`: leitura dos sensores + envio HTTP periódico
 - `simulator.py`: simulação de leituras ESP32 + envio HTTP para API
+- `platformio.ini`: configuração para build/upload com PlatformIO (VS Code)
+
+## Execução com PlatformIO (VS Code)
+
+### Pré-requisitos
+- Extensão **PlatformIO IDE** instalada no VS Code
+- ESP32 conectado via USB (para upload em hardware real)
+
+### Passo a passo
+1. Abrir a pasta `src/esp32` no VS Code como projeto
+2. Ajustar em `main.cpp`:
+	- `WIFI_SSID`
+	- `WIFI_PASSWORD`
+	- `API_URL`
+3. Rodar build:
+
+```bash
+cd src/esp32
+pio run
+```
+
+4. Fazer upload para a placa:
+
+```bash
+cd src/esp32
+pio run -t upload
+```
+
+5. Abrir monitor serial:
+
+```bash
+cd src/esp32
+pio device monitor -b 115200
+```
+
+### Simulação sem hardware
+Caso não tenha ESP32 físico no momento, usar:
+
+```bash
+python src/esp32/simulator.py
+```
 
 ## Implementação prática (alinhada ao backlog)
 
