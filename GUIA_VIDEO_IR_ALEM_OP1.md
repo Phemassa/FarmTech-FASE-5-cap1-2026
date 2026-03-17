@@ -42,15 +42,16 @@
 > **Justificativa:** Estas duas variáveis são críticas para previsão de rendimento de safra e decisões de irrigação em tempo real, alinhando perfeitamente com nossa solução de Machine Learning da Entrega 1."
 
 **Slide 2: Arquitetura do Sistema**
-- Exibir diagrama (pode ser imagem salva ou desenho ao vivo no Miro/PowerPoint)
+- Exibir diagrama salvo em `assets/circuito_esp32_wokwi.svg` (abrir no navegador ou converter para PNG/screenshot)
+- Mostrar as conexões: DHT22 (GPIO 4) + Sensor Solo (GPIO 34) → ESP32 → Wi-Fi → AWS
 
 **Narração (complemento):**
 > "A arquitetura é simples:
-> - Sensores → ESP32 (coleta)
-> - ESP32 → Wi-Fi (comunicação)
-> - Wi-Fi → API HTTP na AWS (armazenamento)
+> - Sensores (DHT22 e Solo) → ESP32 (coleta via GPIO)
+> - ESP32 → Wi-Fi (comunicação sem fio)
+> - Wi-Fi → API HTTP na AWS (armazenamento em sa-east-1)
 > 
-> Isso permite monitoramento contínuo e em tempo real."
+> Isso permite monitoramento contínuo e em tempo real, com dados sincronizados na nuvem."
 
 ---
 

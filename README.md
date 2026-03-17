@@ -165,7 +165,12 @@ jupyter notebook src/PhellypeMatheusGiacoiaFlaibamMassarente_rm566826_pbl_fase4.
 > **Fonte:** AWS Pricing — EC2 On-Demand Linux, instância `t3.micro` (2 vCPU, 1 GiB RAM), armazenamento EBS gp2 50 GB, 100% utilização mensal (730 horas).
 
 <p align="center">
-  <img src="assets/comparativo_custos.png" alt="Gráfico Comparativo de Custos AWS" width="80%">
+  <img src="assets/tabela_comparativa_aws.png" alt="Tabela Comparativa de Custos AWS" width="90%">
+  <br><em>Tabela 1: Comparativo detalhado — São Paulo vs Virgínia do Norte</em>
+</p>
+
+<p align="center">
+  <img src="assets/comparativo_custos_aws.png" alt="Gráfico Comparativo de Custos AWS" width="90%">
   <br><em>Figura 1: Comparativo de custos mensais e anuais — São Paulo vs Virgínia do Norte</em>
 </p>
 
