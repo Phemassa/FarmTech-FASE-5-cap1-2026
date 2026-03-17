@@ -12,7 +12,7 @@
 |---|---------|------|------|--------|
 | 1 | Machine Learning — Previsão de Rendimento de Safra | Obrigatória | 10 pts | ✅ Concluído |
 | 2 | Computação em Nuvem — Estimativa de Custos AWS | Obrigatória | 10 pts | ✅ Concluído |
-| 3 | ESP32 + Wi-Fi + Sensores (Opção 1) | Ir Além | Troféu | ⬜ Não iniciado |
+| 3 | ESP32 + Wi-Fi + Sensores (Opção 1) | Ir Além | Troféu | 🔄 Em progresso |
 | 4 | ML + ESP32 — Classificação de Saúde (Opção 2) | Ir Além | Troféu | ⬜ Não iniciado |
 
 ---
@@ -195,10 +195,10 @@
 | 6 | Documentar + vídeo (≤ 5 min) | 2h |
 
 #### ✅ Checklist "Ir Além"
-- [ ] Seção "Ir Além" no README do GitHub
+- [x] Seção "Ir Além" no README do GitHub
 - [ ] Código-fonte comentado no repositório
 - [ ] Figura da arquitetura do circuito (Wokwi.com ou similar)
-- [ ] Justificativa dos sensores escolhidos
+- [x] Justificativa dos sensores escolhidos
 - [ ] Demonstração funcional (vídeo ≤ 5 min, YouTube não listado)
 
 ---

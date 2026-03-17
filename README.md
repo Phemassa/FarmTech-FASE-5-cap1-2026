@@ -209,26 +209,27 @@ Apesar do custo 45,8% superior, a região São Paulo é a escolha **tecnicamente
 
 ## 🚀 Ir Além (Opcional)
 
-<!-- TODO: Descomente e preencha se for entregar o "Ir Além" -->
+### Opção 1: ESP32 + Wi-Fi + Sensores
 
-<!--
-### Opção X: [Título do Ir Além escolhido]
+**Status:** 🔄 Em progresso
 
-**Descrição:** ...
+**Descrição:** Implementação de coleta de dados agrícolas com ESP32, leitura periódica de sensores e envio em JSON para API HTTP na AWS.
 
-**Sensores utilizados:** ...
+**Sensores utilizados:**
+- DHT22 (temperatura e umidade do ar)
+- Sensor de umidade do solo (analógico)
 
-**Justificativa:** ...
+**Justificativa:** combinação de baixo custo e alta aplicabilidade para monitoramento de irrigação e estresse hídrico, cobrindo variáveis ambientais e de solo.
 
-<p align="center">
-  <img src="assets/arquitetura_iot.png" alt="Arquitetura IoT" width="70%">
-  <br><em>Figura: Arquitetura do sistema IoT</em>
-</p>
+**Arquitetura (fase atual):**
+- ESP32 lê sensores locais
+- ESP32 conecta no Wi-Fi
+- ESP32 envia payload JSON para API HTTP na AWS (`sa-east-1`)
+- Backend persiste e disponibiliza os dados
 
-**Código-fonte:** disponível em [`src/esp32/`](src/esp32/)
+**Código-fonte:** [src/esp32](src/esp32)
 
-**Vídeo demonstrativo:** [🎬 Assistir no YouTube](https://youtube.com/LINK_DO_VIDEO_IR_ALEM)
--->
+**Vídeo demonstrativo:** pendente (será adicionado ao concluir integração fim a fim)
 
 ---
 

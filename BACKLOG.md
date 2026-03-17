@@ -16,7 +16,7 @@
 | EP-03 | Machine Learning Supervisionado | 🔴 Alta | ✅ Concluído |
 | EP-04 | Computação em Nuvem (AWS) | 🔴 Alta | ✅ Concluído |
 | EP-05 | Entrega Final (Vídeos + Documentação) | 🔴 Alta | 🔄 Em progresso |
-| EP-06 | Ir Além — ESP32 + IoT (Opcional) | 🟡 Média | ⬜ Não iniciado |
+| EP-06 | Ir Além — ESP32 + IoT (Opcional) | 🟡 Média | 🔄 Em progresso |
 
 ---
 
@@ -425,10 +425,16 @@
 
 | ID | Task | Responsável | Estimativa | Status |
 |----|------|-------------|------------|--------|
-| T-06.1.1 | Escolher 2 sensores compatíveis com o contexto agrícola | — | 30 min | ⬜ A fazer |
-| T-06.1.2 | Definir destino dos dados (MQTT / Banco / HTML / HTTP) | — | 20 min | ⬜ A fazer |
-| T-06.1.3 | Desenhar arquitetura do circuito (Wokwi.com) | — | 1h | ⬜ A fazer |
-| T-06.1.4 | Escrever justificativa dos sensores escolhidos | — | 20 min | ⬜ A fazer |
+| T-06.1.1 | Escolher 2 sensores compatíveis com o contexto agrícola | — | 30 min | ✅ Feito |
+| T-06.1.2 | Definir destino dos dados (MQTT / Banco / HTML / HTTP) | — | 20 min | ✅ Feito |
+| T-06.1.3 | Desenhar arquitetura do circuito (Wokwi.com) | — | 1h | 🔄 Em progresso |
+| T-06.1.4 | Escrever justificativa dos sensores escolhidos | — | 20 min | ✅ Feito |
+
+**Decisões US-06.1 (17/03/2026):**
+- **Sensores escolhidos:** DHT22 (temperatura/umidade do ar) + sensor de umidade do solo (analógico).
+- **Destino dos dados:** API HTTP (JSON) hospedada na AWS (região sa-east-1).
+- **Arquitetura planejada:** ESP32 → Wi-Fi → API HTTP na AWS → armazenamento/consumo no backend.
+- **Justificativa:** combinação cobre variáveis críticas para irrigação (clima + solo), com baixo custo e ampla disponibilidade em simulação Wokwi e prototipagem física.
 
 ---
 
